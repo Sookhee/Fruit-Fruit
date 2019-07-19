@@ -7,16 +7,16 @@
         <meta name="generator" content="vscode">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="reset.css">
-        <title>푸릇푸릇 Main</title>
+        <title>푸릇푸릇 - 메인 페이지</title>
     </head>
     <body>
             <div id="wrap">
                 <div id="header">
                     <div class="container">
                         <ul>
-                            <li><a href="#">식당 검색</a></li>
-                            <li><a href="#">도시락 신청</a></li>
-                            <li><a href="#">레시피</a></li>
+                            <li><a href="find-store.html">채식 식당 검색</a></li>
+                            <li><a href="">채식 도시락 신청</a></li>
+                            <li><a href="recipe.html">채식 레시피</a></li>
                             <li><a href="#">가이드</a></li>
                             <li><a href="#">Login</a></li>
                             <li><a href="#">Join</a></li>
@@ -32,12 +32,14 @@
                     </div>
                     <div id="cont_ban">
                         <div class="container">
-                            cont_ban
+                            <div class="flex-wrap">
+                                <div id="Banner" class="1"></div>
+                            </div>
                         </div>
                     </div>
                     <div id="cont_cont2">
                         <div class="container">
-                            container
+                            cont_2
                         </div>
                     </div>
                 </div>
@@ -49,5 +51,19 @@
                     </div>
                 </div>
             </div>
+            <script>
+                    function click() {
+                        let mainPhoto = document.getElementById("Banner");
+                        if(mainPhoto.className === "1") {
+                            mainPhoto.className = "2";
+                        } else {
+                            mainPhoto.className = "1";
+                        }
+                    }
+        
+                    window.onload = () => {
+                        document.getElementById("Banner").onclick = click;
+                    }
+                </script>
         </body>
 </html>
