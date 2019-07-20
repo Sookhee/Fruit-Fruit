@@ -7,7 +7,8 @@ textarea, button, form{
 }
 
 ul a:hover, ul a:link, ul a:visited, ul a:active{
-    color:white;
-    font-size:14px;
+    font-size:16px;
     text-decoration: none;
+    color:#04a300;
+    font-weight:bold;
 }
