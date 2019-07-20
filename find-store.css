@@ -5,12 +5,14 @@
 }
 
 #content{
-    background-image: url(./메인.png);
+    background-image: url(./식당찾기.png);
     width : 100%;
-    height : 380%;
+    height : 120%;
     background-repeat: no-repeat;
     background-size:100%;
     z-index:-1;
+    position: relative;
+    top:-70px;
 }
 
 #footer{
@@ -21,7 +23,6 @@
 .container{
     width:990px;
     margin:0 auto;
-    height : inherit;
 }
 
 /* Header */
@@ -30,14 +31,15 @@
     font-size:40px;
 }
 
-#wrap .container ul{
+#wrap ul{
     margin : 0;
     position: absolute;
     top:20px;
     right:40px;
+    top:16px;
 }
 
-#wrap .container li{
+#wrap li{
     display:inline-block;
     padding:6px;
 }
@@ -46,4 +48,12 @@
     font-size:14px;
     padding-top:20px;
     color:#04a300;
+}
+
+#gomain{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top:32px;
+    left:-210px;
 }
