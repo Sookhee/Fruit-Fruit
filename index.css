@@ -5,7 +5,7 @@
 }
 
 #content{
-    background-image: url(./메인\ 수정.png);
+    background-image: url(./메인\ ㄹㅇ진짜\ 최종.png);
     width : 100%;
     height : 350%;
     background-repeat: no-repeat;
@@ -56,4 +56,17 @@
     height: 70px;
     top:32px;
     left:-210px;
+}
+
+#ad{
+    background-image: url(./배너광고.png);
+    width : 193px;
+    height : 550px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    z-index:2;
+    position: relative;
+    top:1380px;
+    left:20px;
+    border:2px solid black;
 }
