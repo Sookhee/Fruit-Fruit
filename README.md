@@ -22,7 +22,7 @@ Hello New World 해커톤 : 푸릇푸릇 - 채식주의자들을 위한 웹사�
 <img src="https://postfiles.pstatic.net/MjAxOTExMThfMTc0/MDAxNTc0MDA4OTgwNjMz.uI_2USCsiZSN3ukte3yvJn6yxCYhJBOOpsm1pYNDmvgg.82HBX9SRlSOXlwDd_GSIqEzdEiesroj6r8m0eEvJDDMg.PNG.gkh10004/8.png?type=w773" width="400px" title="실행화면 p5" alt="실행화면5"></img><br>
 
 ## Authors
-* Minji Jeong - *PM, Development* - [Sookhee](https://github.com/Sookhee)
+* Minji Jeong - *Planning, Development* - [Sookhee](https://github.com/Sookhee)
 * Hyunsoo Lee - *Development* - [LHyunSoo](https://github.com/LHyunSoo)
 * Juha Yoon - *Design*
 * Seonu Joo - *Design*
